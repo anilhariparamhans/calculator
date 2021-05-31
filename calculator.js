@@ -112,7 +112,7 @@ let handleKeyboardEvents = (e) => {
     else if ((!e.shiftKey && keyCode == 187) || (keyCode == 13)) {
         btnEqual.click();
     }
-    else if (e.shiftKey && keyCode == 18) {
+    else if (e.shiftKey && keyCode == 56) {
         btnMultiply.click();
     }
     else if (e.shiftKey && keyCode == 189) {
